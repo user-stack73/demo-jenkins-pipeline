@@ -24,7 +24,7 @@ pipeline {
 
     post {
         success {
-            echo '✅ Build et tests réussis !'
+            echo '✅ Build et tests réussis oui!'
         }
         failure {
             echo '❌ Échec du pipeline ! Vérifie les logs.'
