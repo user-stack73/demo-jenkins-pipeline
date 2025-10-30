@@ -4,12 +4,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/user-stack73/demo-jenkins-pipeline.git'
-            }
-        }
-
         stage('Install dependencies') {
             steps {
                 sh 'npm install'
